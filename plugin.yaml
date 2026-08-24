@@ -1,0 +1,10 @@
+apiVersion: fluxa/v1
+kind: Plugin
+metadata:
+  name: plugin-channel-telegram
+  version: 0.1.0
+spec:
+  runtime: grpc
+  entrypoint: bin/plugin-channel-telegram
+  capabilities:
+  - id: channel.telegram
